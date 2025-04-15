@@ -11,7 +11,7 @@ const Navlink = () => {
 
   const links = [
     { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
+    { href: "/abouts", label: "About" },
     { href: "/rooms", label: "Rooms" },
     { href: "/contact", label: "Contact" },
     { href: "/myreversation", label: "My Reservation" },
