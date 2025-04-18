@@ -54,8 +54,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Email kamu"
-              className="w-full px-4 py-2 bg-gray-800 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
-            />
+              className="w-full px-4 py-2 bg-gray-800 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500" />
             <button
               type="submit"
               className="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-md transition shadow-md"
