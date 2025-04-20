@@ -11,5 +11,17 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   },
   pages: {
       signIn: "/signin"
+  },
+  callbacks: {
+    jwt: ({ token, user }) => {
+      if (user) 
+        token.role = user.role;
+        return token
+    },
+    session({ session, token }) { 
+      session.user.id = token.sub;
+      session.user.role = token.role;
+      return session;
+    }
   }
 })
