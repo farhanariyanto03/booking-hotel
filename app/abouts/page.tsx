@@ -222,7 +222,7 @@ const AboutPage = () => {
           <div className="absolute bottom-0 left-0 w-48 h-48 bg-orange-400 rounded-full translate-y-1/2 -translate-x-1/2 opacity-50"></div>
 
           <div className="relative z-10 max-w-3xl mx-auto text-center">
-            <div className="text-5xl font-serif mb-6">"</div>
+            <div className="text-5xl font-serif mb-6"></div>
             <p className="text-xl md:text-2xl mb-8 font-light italic">
               This booking platform has transformed how we travel. The ease of finding and booking hotels, combined with
               their exceptional customer service, makes them our go-to choice for all our trips.
